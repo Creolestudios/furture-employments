@@ -89,45 +89,6 @@ cd furture-employments
 
 ```
 
-  
-
-### Env Variables
-
-  
- For backend 
-Rename the `.env.example` file to `.env`  in backend folder and change values with  your credentials.
-
-  
-
-```
-DB_HOST=localhost
-DB_USER_NAME=your-postgres-db-username
-DB_PASSWORD=your-postgres-db-password
-DB_NAME=future-employments
-NODE_ENV  =development
-SEND_GRID_HOST=smtp.sendgrid.net
-SEND_GRID_PORT=465
-SEND_GRID_USER=apikey
-SEND_GRID_API_KEY=your-sendgrid-api-key
-FRONTEND_HOST=localhost:3000
-RESET_PASSWORD_EXPIRY=10
-LINKEDIN_CLIENT_ID=your-linkedin-client-id
-LINKEDIN_CLIENT_SECRET=your-linked-client-secret-key
-LINKEDIN_REDICERT_URL=http://localhost:3000/auth/linkedin/callback
-JWT_SECRET=prospectsemployments
-SERVER_URL=http://localhost:5000
-
-```
-For frontend
-Rename the `.env.example` file to `.env`  in frontend folder and change values with  your credentials.
-
-```
-REACT_APP_BASE_URI=http://localhost:5000/graphql
-REACT_APP_CMS_URL=your-cms-url
-```
-
-  
-
 ### Install Dependencies (frontend & backend)
 
   
